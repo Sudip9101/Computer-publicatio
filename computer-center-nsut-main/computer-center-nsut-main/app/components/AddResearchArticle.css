@@ -1,0 +1,113 @@
+/* components/AddResearchArticle.module.css */
+.container {
+  /* max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px; */
+}
+
+header {
+  display: flex;
+  margin-bottom: -50px;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+header>nav{
+  margin-left: 15%;
+}
+.one{
+  display: flex;
+  justify-content: space-between;
+}
+.two{
+  display: flex;
+  
+  
+}
+.logo {
+  height:70px;
+  width: 100px;
+}
+
+.cc {
+ background-size: cover;
+ height: 20vh;
+ width: 200vh;
+ opacity: 0.75;
+
+}
+
+header h1 {
+  font-size: 26px;
+}
+
+h2{
+  position: relative;
+  top: 14vh;
+  color: white;
+  font-weight:800;
+  z-index: 100;
+  }
+  h3{
+    font-size: xx-large;
+  }
+nav ul {
+  justify-content:left;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+main {
+ justify-content: center;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  margin-bottom: 5px;
+}
+
+.formGroup input {
+  padding: 8px;
+  margin: 10px;
+  width: 300px;
+}
+
+.formActions {
+  display: flex;
+  gap: 10px;
+}
+
+.clear, .submit {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5%;
+
+}
+
+.clear {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+.submit {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
